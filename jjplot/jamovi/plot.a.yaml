@@ -1,0 +1,45 @@
+---
+name:  plot
+title: Exploratory plot
+menuGroup: jjplot
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+
+    - name: xvar
+      title: X Variable
+      type: Variable
+      
+    - name: yvar
+      title: Y Variable
+      type: Variable
+
+    - name: group
+      title: Grouping Variable
+      type: Variable
+      
+    - name: type
+      title: Plot type
+      type: List
+      options:
+        - name: point
+          title: Point
+        - name: line
+          title: Line
+        - name: boxplot
+          title: Boxplot
+      default: point
+      
+    - name: xlab
+      title: Label (x-axis)
+      type: String
+      default: "x"
+      
+    - name: ylab
+      title: Label (y-axis)
+      type: String
+      default: "y"
+...

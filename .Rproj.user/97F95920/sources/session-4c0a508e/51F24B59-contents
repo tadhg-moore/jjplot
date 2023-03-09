@@ -1,0 +1,14 @@
+---
+name:  plot
+title: Exploratory plot
+jrs:   '1.1'
+
+items:
+    - name: plot
+      title: Exploratory plot
+      type: Image
+      width:  400
+      height: 300
+      renderFun: .plot
+
+...

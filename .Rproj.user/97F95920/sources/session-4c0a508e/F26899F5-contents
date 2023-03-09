@@ -1,0 +1,8 @@
+options(jamovi_home="C:\\Program Files\\jamovi 2.3.21.0\\bin")
+jmvtools::check()
+jmvtools::create('jjplot')
+setwd("jjplot")
+
+jmvtools::addAnalysis(name='plot', title='Exploratory plot')
+
+jmvtools::install()
